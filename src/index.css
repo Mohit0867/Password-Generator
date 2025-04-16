@@ -1,0 +1,20 @@
+:root {
+  --primary: #1f1f1f;
+  --text: #fff;
+  --accent: #8b9cee;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  font-family: sans-serif;
+  background: var(--primary);
+  color: var(--text);
+}
