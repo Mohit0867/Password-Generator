@@ -1,0 +1,147 @@
+.main-wrapper {
+  width: 800px;
+  height: 550px;
+  box-shadow: 0px 0px 10px var(--accent);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 20px;
+}
+.pg {
+  font-size: 3rem;
+  font-weight: 600;
+  width: full;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.password-container {
+  background: var(--accent);
+  height: 200px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  color: var(--primary);
+  font-weight: 600;
+}
+.length-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.length-bar-container {
+  position: relative;
+  flex: 1;
+}
+.length {
+  padding: 10px 20px;
+  background: #2a2b30;
+  font-size: 20px;
+  border-radius: 5px;
+}
+.length-slider {
+  width: 100%;
+  appearance: none;
+  -webkit-appearance: none;
+  height: 15px;
+  border-radius: 10px;
+  background-color: #2a2b30;
+}
+.slider-bar {
+  height: 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--accent);
+  pointer-events: none;
+  border-radius: 10px;
+}
+.length-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background: var(--accent);
+  width: 35px;
+  height: 35px;
+  border-radius: 10px;
+  position: relative;
+  z-index: 10;
+}
+
+.options-list-container {
+  display: flex;
+  gap: 20px;
+}
+
+.options-container {
+  width: 200px;
+  height: 125px;
+  background: #2a2b30;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 20px;
+  transition: 200ms ease;
+}
+.options-container:hover {
+  background: #3f414e;
+}
+.options-text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.selected {
+  background: var(--accent);
+  color: var(--primary);
+}
+.selected:hover {
+  background: #fff;
+  color: #000;
+}
+.btn-container {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  flex: 1;
+}
+.regenerate {
+  flex: 1;
+  border-radius: 10px;
+  border: 0;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: #2a2b30;
+  color: var(--accent);
+  transition: 200ms ease;
+}
+.regenerate:hover {
+  background: #3f414e;
+}
+.copy {
+  flex: 1;
+  padding-block: 15px;
+  border-radius: 10px;
+  background: var(--accent);
+  border: 0;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  transition: 200ms ease;
+  justify-content: center;
+  gap: 10px;
+}
+.copy:hover {
+  background: #fff;
+}
+@media screen and (max-width: 890px) {
+  .main-wrapper {
+    width: 90vw;
+  }
+}
