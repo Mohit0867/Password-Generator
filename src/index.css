@@ -2,9 +2,6 @@
   --primary: #0e0e0e;
   --text: #fff;
   --accent: #62a7e0;
-  --primary: #1f1f1f;
-  --text: #fff;
-  --accent: #8b9cee;
 }
 * {
   margin: 0;
@@ -17,11 +14,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100vh;
   font-family: sans-serif;
   background: var(--primary);
   color: var(--text);

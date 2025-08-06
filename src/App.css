@@ -145,62 +145,63 @@
     width: 90vw;
   }
 
-.main-shadow {
-  height: 550px;
-  width: 800px;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px var(--accent);
-  padding: 20px;
-}
-.password-container {
-  height:  calc(45vh + 10px );
-  width: 100%;
-  background: var(--accent);
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 3rem;
-  color: var(--primary);
-  font-weight: 600;
-}
-.buttons-wrapper {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 10px;
-  /* flex-wrap: wrap; */
-  /* height: 15vh; */
-  padding: 10px 0px;
-}
-.options-container {
-  background: #333333;
-  height: 15vh;
-  /* width: fit-content; */
-  flex: 1;
-  padding: 10px;
-  display: flex;
-  justify-content: flex-start;
-  gap: 20px;
-  align-items: center;
-  border-radius: 10px;
-  border: 0;
-}
-.options-container:hover {
-  background: #474747;
-}
-.upper-text {
-  line-height: 20px;
-  font-size: 1rem;
-}
-.selected {
-  background: var(--accent);
-}
-.selected:hover {
-  background: #7e8dd4;
-}
-.buttons-wrapper-two {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 10px;
-  padding:0px 0px 10px 0px ;
+  .main-shadow {
+    height: 550px;
+    width: 800px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px var(--accent);
+    padding: 20px;
+  }
+  .password-container {
+    height: calc(45vh + 10px);
+    width: 100%;
+    background: var(--accent);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: var(--primary);
+    font-weight: 600;
+  }
+  .buttons-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    /* flex-wrap: wrap; */
+    /* height: 15vh; */
+    padding: 10px 0px;
+  }
+  .options-container {
+    background: #333333;
+    height: 15vh;
+    /* width: fit-content; */
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    align-items: center;
+    border-radius: 10px;
+    border: 0;
+  }
+  .options-container:hover {
+    background: #474747;
+  }
+  .upper-text {
+    line-height: 20px;
+    font-size: 1rem;
+  }
+  .selected {
+    background: var(--accent);
+  }
+  .selected:hover {
+    background: #7e8dd4;
+  }
+  .buttons-wrapper-two {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    padding: 0px 0px 10px 0px;
+  }
 }
