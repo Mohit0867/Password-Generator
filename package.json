@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "react-seven",
+=======
+  "name": "coc-7",
+>>>>>>> c23907d14f2b58d51e966aff4ff93a986132cfac
   "private": true,
   "version": "0.0.0",
   "type": "module",
